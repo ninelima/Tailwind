@@ -1,0 +1,8018 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{chngcntr}
+\counterwithin*{section}{part}
+\usepackage[none]{hyphenat}
+
+% W8M Wittman Tailwind
+\newcommand{\umodel}{W8-M}
+\newcommand{\uname}{Wittman Tailwind}
+
+% V Speeds
+\newcommand{\uvs}{30}
+\newcommand{\uvso}{48}
+\newcommand{\uvr}{66}
+\newcommand{\uvref}{64}
+\newcommand{\uvx}{75}
+\newcommand{\uvy}{93}
+\newcommand{\uvz}{105}
+\newcommand{\uvbg}{95}
+\newcommand{\uvfe}{87}
+\newcommand{\uva}{130}
+\newcommand{\uvno}{150}
+\newcommand{\uvne}{174}
+
+% Default for fancy
+% \fancyhead[LE,RO]{\slshape \rightmark}
+% \fancyhead[LO,RE]{\slshape \leftmark}
+% \fancyfoot[C]{\thepage}
+% \headrulewidth 0.4pt
+% \footrulewidth 0 pt
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\begin_local_layout
+Format 66
+Counter section
+         Within               part
+End 
+\end_local_layout
+\language australian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "bookman" "Haettenschweiler"
+\font_sans "default" "default"
+\font_typewriter "default" "Consolas"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize a5paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 10pheight%
+\rightmargin 1cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip smallskip
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+\noindent
+
+\size largest
+OWNERS HANDBOOK FOR OPERATION AND MAINTENANCE OF BVH WITTMAN 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+ AIRPLANE 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\noindent
+NOTICE :
+\end_layout
+
+\begin_layout Plain Layout
+This handbook is not designed, nor can any handbook serve, as a substitute
+ for adequate and competent flight instruction, or knowledge of the current
+ airworthiness directives, the applicable air regulations and advisory circulars.
+ It is not intended to be a guide of basic flight instruction nor a training
+ manual.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Published by:
+\end_layout
+
+\begin_layout Standard
+BVH Aerospace
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Revised: 2018-12
+\end_layout
+
+\begin_layout Plain Layout
+Issued: 
+\family sans
+2018-12-12
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename tailwind-promo.png
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagestyle{plain}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{page}{1}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+THIS PAGE INTENTIONALLY LEFT BLANK
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+DESIGN FEATURES
+\end_layout
+
+\begin_layout Section
+Specifications
+\end_layout
+
+\begin_layout Standard
+
+\size footnotesize
+\begin_inset Tabular
+<lyxtabular version="3" rows="37" columns="2">
+<features islongtable="true" longtabularalignment="center">
+<column alignment="left" valignment="top" width="25col%">
+<column alignment="left" valignment="top" width="75col%">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+MANUFACTURER
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+BVH Aerospace
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+MANUFACTURE DATE
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+2014
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+MODEL
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+SERIAL 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+???
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+EMPTY / GROSS WEIGHT 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+437/646 kg (965/1425 lbs)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+USEFUL LOAD 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+323 kg (711 lbs) ???
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+PAYLOAD (FULL FUEL) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+212 kg (468 lbs) ???
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+ENGINE 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Lycoming O-320-E3H (160HP/119kW)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+RPM MAX 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+2700 RPM ???
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+CHT MAX 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+260 °C (500 °F)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+EGT MAX
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+460-580 (max 650) ºC 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+OIL CAPACITY 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+8 lit 50 wt 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+OIL PRESSURE RANGE 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+4-6 bar 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+OIL TEMPERATURE 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+max 118 ºC 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+FUEL PRESSURE RANGE 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+1 - 3 bar (14-44 psi)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+INDUCTION 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Precision Silver Hawk EX360-1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+PROPELLER 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Prince <model> 1.8 m (72") ?
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+TIRES 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+5.00x5 (main), 4.00x5 (tail)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+AIRFOIL 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+NACA 4309 Modified
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+WINGSPAN 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+7.3 m (24 ft)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+WING AREA 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+10.8 m2 (116 ft²)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+WING LOADING 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+75.7 kg/m² (15.5 lbs/ft²)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+POWER LOADING 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+4.5 kg/hp (10 lbs/hp)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+LENGTH 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+6.0 m (19.6 ft 10")
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+HEIGHT 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+1.65 m (65.0")
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+WHEELBASE 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+1.9 x 1.5 m (76 x 61")
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+G LIMIT (820 KG)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
++6.0 g @ 700kg
+\begin_inset Newline newline
+\end_inset
+
++3.8 g @ 820kg
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+FUEL CAPACITY 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+145 lit (144 lit Usable) ???
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+FUEL FLOW
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+43 lit/hr (@ 75%)
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+35 lit/hr (@ 55%)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+TAKEOFF DISTANCE 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+84 m (275 ft)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+LANDING DISTANCE 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+107 m (350 ft)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+RATE OF CLIMB 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+1,200 fpm
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+CEILING 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+12,500 ft
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+RANGE 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+821 nm (55% @ 8000 ft)
+\begin_inset Newline newline
+\end_inset
+
+678 nm (75% @ 8000 ft)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+SERVICE CEILING 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+19,500 ft
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+BAGGAGE 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Fwd (max) 25 kg (55 lbs)
+\begin_inset Newline newline
+\end_inset
+
+Aft (max) 35 kg (77 lbs) 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+BAGGAGE VOLUME 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Fwd 140 lit (4.9 ft³
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+) 
+\begin_inset Newline newline
+\end_inset
+
+Aft 212 lit (7.5 ft³) 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+General 
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+ is a conventional configuration, cantilever, low wing aircraft.
+ Landing gear is the tricycle type, with two main wheels located behind
+ of the center of gravity and a free castoring tailwheel.
+ The landing gear is flexible, with low pressure tires absorbing the landing
+ loads.
+ 
+\end_layout
+
+\begin_layout Standard
+The fully enclosed cockpit is fitted with a bubble to provide protection
+ from the elements and has excellent visibility.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+The Tailwind W8M is a single engine, classic tube and fabric closed fuselage/emp
+ennage and wood wing strut braced, high wing monoplane construction with
+ 2 side by side seats and 2 lateral doors.
+ The airplane is a taildragger with 2 front wheels and a steerable tailwheel.
+ It is intended especially for recreational and cross country fying, non-aerobat
+ic operation.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Limitations
+\end_layout
+
+\begin_layout Subsection*
+
+\lang english
+Operating Speeds 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Tabular
+<lyxtabular version="3" rows="13" columns="3">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+VREF
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Flight Regime (gross weight)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+kts
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\lang english
+s
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Stall, flap retracted
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+uvs{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\lang english
+so
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Stall, flap extended
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+uvso{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\lang english
+r
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Takeoff rotate
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+uvr{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\lang english
+ref
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Final approach (~ 1.3 Vso)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+uvref{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\lang english
+x
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Best angle climb
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+uvx{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\lang english
+y
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Best rate climb
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+uvy{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\lang english
+z
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Best cruise climb
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+uvz{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\lang english
+bg
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Best glide angle (6:1)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+uvbg{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\lang english
+fe
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Flaps extension
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+uvfe{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\lang english
+a
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Maneuvering
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+uva{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\lang english
+no
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Max structural cruise
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+uvno{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\lang english
+ne
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Never exceed
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+uvne{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename vne-altitude.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+NE
+\end_layout
+
+\end_inset
+
+ vs ALTITUDE
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Airspeed Indicator markings
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="12col%">
+<column alignment="center" valignment="top" width="15col%">
+<column alignment="left" valignment="top" width="50col%">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+MARKING
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ANALOG ASI (kts)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SIGNIFICANCE
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+White Arc
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+uvso{}
+\end_layout
+
+\end_inset
+
+
+\lang australian
+-
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+uvfe
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Full Flap Operating Range.
+ Lower limit is maximum weight stall speed in landing configuration.
+ Upper limit is maximum speed permissible with flaps fully extended.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Green Arc
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+uvs{}
+\end_layout
+
+\end_inset
+
+
+\lang australian
+-
+\lang english
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+uvno{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Normal Operating Range.
+ Lower limit is maximum weight stall speed with flaps retracted.
+ Upper limit is the maximum structural cruising speed.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Yellow Arc
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+uvno{}
+\end_layout
+
+\end_inset
+
+
+\lang australian
+-
+\lang english
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+uvne{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Operations must be conducted with caution and only in smooth air.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Red Line
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+uvne{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Maximum speed for all operations.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+NOTES:
+\end_layout
+
+\begin_layout Enumerate
+The analog airspeed indicator markings are based on position error estimates.
+ These markings do not account for the analog ASI instrument error.
+ 
+\end_layout
+
+\begin_layout Enumerate
+The EFIS airspeed tape markings are to be revised to incorporate actual
+ position errors once these have been determined.
+\end_layout
+
+\begin_layout Subsection*
+Fuel Quantity data (liters)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tanks
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Usable fuel
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Unusable fuel
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Total fuel
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Left wing
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+78
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+80
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Right wing
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+78
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+80
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Engine and Propeller
+\end_layout
+
+\begin_layout Standard
+The Lycoming O-320-nnn engine in the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+ produces 160 HP (134 kW) at 2700 RPM.
+ This engine has a compression ratio of 8.5:1 and use 91/96 or 100LL minimum
+ octane fuel.
+ 
+\end_layout
+
+\begin_layout Standard
+The engine on the standard 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+ is equipped with a geared starter, alternator, two magnetos, shielded harness,
+ shielded spark plugs, diaphragm fuel pump, tachometer pickups, and thermostats
+ for oil, cylinder head and exhaust gas temperatures.
+ 
+\end_layout
+
+\begin_layout Standard
+Engine mounts are of steel tubing construction and incorporate vibration
+ absorbing load mounts.
+ Engine cowls are largely interchangeable and are cantilever structures
+ attached at the firewall.
+ The nose section is split for quick removal.
+ Cowls are quickly removable by means of piano hinge fasteners.
+ 
+\end_layout
+
+\begin_layout Standard
+The exhaust system is a straight type with exhaust gases directed into muffled
+ jet augmenter tubes located to the bottom side of the engine.
+ This system provides for exhaust elimination with¬out power loss and effective
+ engine cooling through the pumping action of the exhaust gases into the
+ augmenter tubes, which draws cooling air through the engine compartment;
+ no cowl flaps or cooling flanges are needed on the cowling.
+ Higher aircraft speeds are obtainable with this system due to reduced cooling
+ drag and due to extra thrust furnished by the exhaust augmentation.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename engine-mounted.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Efficient aluminum oil coolers are mounted on the rear of the engine.
+ Engine oil drainage is accomplished with two quick oil drain valves located
+ on the left and right front corners of the engine crankcase.
+ 
+\end_layout
+
+\begin_layout Standard
+Engine air is directed through a quickly removable filter, located in the
+ nose cowl, to the throttle body air box.
+ Heated air for the throttle body is taken from shrouds on the exhaust manifolds
+ through flexible tubes to the air boxes.
+ (See Section II, Sub Section V for throttle body heat application).
+ 
+\end_layout
+
+\begin_layout Standard
+The propeller on the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+ is a Prince ??? , 4" spacer, 1/2" bolt, 85" pitch Part Number = PROP 72FM8S16-1
+ (85).
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename oil-drain.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Fuselage and Wing Structures
+\end_layout
+
+\begin_layout Standard
+The
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+ 
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+ fuselage is a composition of three basic units: the fabric covered steel
+ tube tail section, cabin section and nose section.
+ The welded steel tube fuselage is intended to withstand the high loads
+ imposed on the center section region of the airplane and provides an extra
+ safety factor in this area.
+ 
+\end_layout
+
+\begin_layout Standard
+The wing structure is lightweight but rugged and consists of a massive stepped-d
+own main spar, a front and rear spar, lateral stringers, longitudinal ribs,
+ stressed skin sheets and a readily detachable wing tip section.
+ The rectangular plan form of the wing permits the use of many interchangeable
+ parts and simplifies the construction while providing for excellent stability
+ and performance characteristics.
+ 
+\end_layout
+
+\begin_layout Standard
+The main wings use a ???% NACA 4309 (modified) series airfoil.
+ 
+\end_layout
+
+\begin_layout Standard
+The primary bending loads of the wing are carried by the single main spar
+ and wing struts.
+ Wing torsional and drag loads are carried by the wing skins and rear spar.
+ The same is true of the tail surfaces.
+ The welded steel frame, provide torsional and bending strength.
+ 
+\end_layout
+
+\begin_layout Section
+Landing Gear
+\end_layout
+
+\begin_layout Standard
+All three landing gear units on the
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+ 
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+ incorporate the same soft acting tubular steel landing gear with the tail
+ wheel mounting bolted to the tail structure.
+ The landing gear requires no maintenance.
+ 
+\end_layout
+
+\begin_layout Standard
+Main wheels are 500x5 Cleveland Aircraft Products units with disc type brakes
+ and 500x5 tires with a four ply rating.
+ The nose wheel is a Cleveland 400x5 model fitted with a 400x5 tire with
+ a four ply rating.
+ All tires have tubes.
+ (See Section IV, Sub Section II for tire service).
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename rv8-silver.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Main gear brakes are actuated by toe brake pedals on the front rudder pedals.
+ Hydraulic brake cylinders located in front of the rudder pedals are readily
+ accessible in the cockpit for servicing.
+ (See Section IV, Sub Section IV for brake service).
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename anti-splat.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The tail wheel is an unlockable Maule type and the aircraft is steered with
+ the rudder pedals.
+\end_layout
+
+\begin_layout Section
+Hydraulic System
+\end_layout
+
+\begin_layout Standard
+The hydraulic system is used for the individual actuation of the Cleveland
+ calipers on the main wheels.
+ The operation of these units is accomplished by applying pressure to the
+ toe-brakes which is fitted to the rudder pedals.
+ 
+\end_layout
+
+\begin_layout Standard
+A hydraulic brake fluid is supplied from reservoir is located on the firewall
+ to the two master cylinders attached to the toe-brakes.
+ The level of hydraulic fluid should be checked regularly.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename hydarulic-system.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Hydraulic system
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Control System and Surfaces
+\end_layout
+
+\begin_layout Standard
+Dual stick and rudder flight controls are provided in the
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+ 
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+ as standard equipment.
+ All controls are light yet solid and effective in flight at all speeds
+ down through the stalling speed.
+ The front set of rudder pedals is equipped with toe brakes.
+ 
+\end_layout
+
+\begin_layout Standard
+All control surfaces on the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+ are either pushrod or cable controlled and are conventional sheet metal
+ structures, fitted with aluminum hinges and needle bearings.
+ The flaps are actuated by an electric motor located in the left side of
+ the cabin wall.
+ Access to this motor is obtained by the removal of the interior panel.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename flap-actuator.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The ailerons and elevator are connected by push rods with the joysticks.
+ The rudder is connected by cables to the rudder pedals.
+ The aileron is provided with a trim system which is actuated by a lever
+ located on the left console.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename checked-rudder.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The horizontal tail is a stabilizer and elevator with an anti-servo tab
+ which also acts as longitudinal trim tab, actuated by rocker switch on
+ the left console.
+ The trim functions are also available on the joystick.
+ The stabilizer provides excellent stability and controllability throughout
+ the entire speed envelope of the aircraft.
+\end_layout
+
+\begin_layout Section
+Fuel System
+\end_layout
+
+\begin_layout Standard
+Two sixty liter fuel tanks located inboard in the wings provide fuel storage
+ in the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+.
+ The tanks should be kept full of fuel during storage of the airplane to
+ prevent accumulation of moisture and to prevent deterioration of the seals.
+ For long term storage without fuel, the seals should be coated with light
+ engine oil to keep from drying out.
+ The fuel system in the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+ is simple, but completely effective.
+ Fuel can be pumped from either tank to the engine through use of the engine
+ driven and/or electric fuel pumps.
+ For normal operation, fuel is pumped by the engine driven pump from the
+ tanks directly to the throttle body.
+ The fuel valve can be left on at all times.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename fuel-filter.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+An electric auxiliary fuel pump, located on the left side of the fuselage
+ floor directly behind the engine compartment firewall, is installed in
+ by-pass fuel lines between the tanks and the engine driven pump.
+ The electric pump can be used to provide pressure in the event of failure
+ of the engine pump.
+ It are normally turned on to check their operation before starting the
+ engines, turned off after starting, to check engine driven pump and left
+ on during take-off and landing, to preclude the possibility of fuel pressure
+ loss due to pump failure at critical times.
+ If engine driven pump fails, the electric pump to that engine can be turned
+ on to supply the fuel.
+ A replaceable fuel filter is installed between the fuel selector valve
+ and the auxiliary fuel pump.
+ The fuel filter is mounted on the left side of the fuselage below the console.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename fuel-selector-boost-pump.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Fuel selector and boost pump arrangement
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Fuel can thus be used from one tank or the other, by switching the main
+ valve control to the desired tank.
+ For all normal operation, it is recom-mended that the electric fuel pump
+ be switched on during tank changeover.
+ The fuel valve control is located below the left instrument console.
+ Two electric fuel gauges directly in front of the fuel valve control indicate
+ the fuel quantity in each tank.
+ 
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+CAUTION - The electric fuel gauges indicate the last remaining 15 USG (57
+ lit) fuel quantity in each tank by means of individual float type resistive
+ fuel sender units in the wing fuel tanks.
+ 
+\end_layout
+
+\begin_layout Standard
+The electric fuel pump switch is located on the left instrument console
+ in front of the throttle.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename gascolator.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A fuel strainer is located on the left bottom side of the firewall.
+ It is fitted with a quick drain and should be drained regularly through
+ the access ports.
+ In order to check the fuel system for possible moisture content, the quick
+ drain valve on the fuel strainer should be opened and drained.
+ This procedure should be conducted prior to every flight.
+ Fuel screens are provided at the tank outlets, in the throttle body and
+ in the fuel pumps.
+ Idle cut-offs are incorporated in the throttle body and should always be
+ used to stop the engines.
+ This is accomplished by pulling the mixture control levels to the rearmost
+ position.
+ 
+\end_layout
+
+\begin_layout Section
+Electrical System
+\end_layout
+
+\begin_layout Standard
+The master switch for the electrical system is located on the lower right
+ side of the control panel, along with the magneto and starting switch.
+ Other electrical switches and circuit breakers are grouped on the lower
+ right side console below of the instrument panel.
+ 
+\end_layout
+
+\begin_layout Standard
+The starter switch is incorporated into the ACS switch located immediately
+ above the master switch on the extreme right side of the instrument panel.
+ This switch is spring loaded and is used to select the magneto OFF, LEFT,
+ RIGHT, BOTH and also engage the starter motor in the START position.
+ To operate, turn the ignition key to the right (START).
+ After starting, release the key and it will return to the BOTH position.
+\end_layout
+
+\begin_layout Standard
+Automatic circuit breakers are provided for all electrical circuits.
+ These units automatically break the electrical circuit if an overload is
+ applied to the system, preventing damage to the wires.
+ To reset the circuit breakers, simply push in the buttons.
+ Continual popping out of a circuit button indicates trouble in the electrical
+ system and should be investigated.
+ 
+\end_layout
+
+\begin_layout Standard
+An Odyssey PC625 12V, 18 AH primary battery, is mounted in the tail section
+ behind the baggage compartment.
+ An Odyssey PC310 12V, 8 AH auxiliary battery, enclosed in battery box,
+ is mounted in the nose section on the right side.
+ (See Section IV, Sub Section III for maintenance.) A 12 Volt 50 Ampere alternato
+r is installed as standard equipment.
+ 
+\end_layout
+
+\begin_layout Standard
+The EFIS backlight and panel lights are operated by a rheostat switch located
+ on the left side of the instrument panel.
+ The position lights are turned on with the first movement of the knob;
+ panel light intensity is increased by further rotation of the control.
+ Also, as optional equipment, individual instrument lights mounted on the
+ instrument cover panel are turned on by the same rheostat, but panel light
+ intensity is controlled by a separate rheostat.
+ 
+\end_layout
+
+\begin_layout Standard
+The Alternator switch is mechanically linked with the split master switch
+ located on the lower right side of the instrument panel.
+ A voltage regulator is included into the alternator itself.
+ The alternator provides charging current for both batteries.
+ As standard equipment an external power receptacle is available on the
+ left tail section.
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+CAUTION - When connecting to an external power source, airplane master switch
+ must be in the OFF position.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename alternator.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+ELECTRICAL DIAGRAM
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename wiring-schematic.svg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+ELECTRICAL LOAD ANALYSIS 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+ - 12 VOLT
+\end_layout
+
+\begin_layout Standard
+A.
+ MAXIMUM PROBABLE CONTINUOUS LOAD - (less radio equipment):
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="4">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="40col%">
+<column alignment="center" valignment="top" width="20col%">
+<column alignment="center" valignment="top" width="10col%">
+<column alignment="center" valignment="top" width="10col%">
+<row>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+TOTAL 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+CURRENT 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ITEM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+NUMBER USED 
+\end_layout
+
+\begin_layout Plain Layout
+in 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12.0 Volts 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+14.3 Volts 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Flap Gauge
+\end_layout
+
+\begin_layout Plain Layout
+Fuel Contents Gauge
+\end_layout
+
+\begin_layout Plain Layout
+Fuel Pressure Gauge1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Alternator Contactor
+\end_layout
+
+\begin_layout Plain Layout
+Master Contactor
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.6
+\end_layout
+
+\begin_layout Plain Layout
+0.6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.7
+\end_layout
+
+\begin_layout Plain Layout
+0.7
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Navigation Lights
+\end_layout
+
+\begin_layout Plain Layout
+Landing Lights
+\end_layout
+
+\begin_layout Plain Layout
+Instrument Flood Lights
+\end_layout
+
+\begin_layout Plain Layout
+Strobe (Whelen)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+4.6
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+5.0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+5.5
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+5.9
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+B.
+ INTERMITTENT LOADS
+\end_layout
+
+\begin_layout Itemize
+Landing Lights 
+\end_layout
+
+\begin_layout Itemize
+Fuel Pump 
+\end_layout
+
+\begin_layout Itemize
+Starter Solenoids 
+\end_layout
+
+\begin_layout Itemize
+Cigar Lighters
+\end_layout
+
+\begin_layout Subsection*
+PRIMARY EFIS FLIGHT INSTRUMENTS
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename efis.png
+	width 100col%
+	height 100theight%
+	keepAspectRatio
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename efis2.png
+	width 100col%
+	height 100theight%
+	keepAspectRatio
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename efis3.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename efis4.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Finish
+\end_layout
+
+\begin_layout Standard
+All aluminum sheet components of the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+ are carefully finished inside and outside to assure maximum service life.
+ Both sides of all pieces are Alodine treated and/or sprayed with zinc chromate
+ primer.
+ External surfaces are coated with durable syn¬thetic enamels in attractive
+ high gloss colors.
+ 
+\end_layout
+
+\begin_layout Section
+Instrument Panel
+\end_layout
+
+\begin_layout Standard
+\noindent
+The instrument panel of the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+ has been designed to accommodate all of the customary conventional flight
+ instruments in front of the pilot.
+ All required engine instruments are available on the EFIS and an additional
+ tachometer is provided as part of the analog cluster.
+ The flight instrument group is in an easily visible sub-panel.
+ All instruments are accessible for maintenance by removing the instrument
+ panel.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+The Electronic Flight Information System (EFIS) in the flight group is provided
+ with a fully redundant power system via the auxiliary battery.
+ This will allow the EFIS system to remain operational in the event of a
+ main battery failure.
+ A switch for EFIS backup power from the auxiliary battery is included in
+ the switch grouping on the right console.
+ A Hobbs meter is provided to eliminate the need for constant reference
+ to aircraft and engine log books.
+ Two small instrument clusters, below the instrument panel, include fuel
+ quantity gauges on the left, oil and fuel pressure on the right.
+ This information is also available on the multifunction display of the
+ EFIS.
+ 
+\end_layout
+
+\begin_layout Standard
+A Hobbs meter is provided to eliminate the need for constant reference to
+ aircraft and engine log books.
+ Two small instrument clusters, below the instrument panel, include fuel
+ quantity gauges on the left, oil and fuel pressure on the right.
+ This information is also available on the multifunction display of the
+ EFIS.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename cockpit-layout.png
+	lyxscale 50
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Radio units are installed in the center of the main panel.
+ Radio circuit breakers are mounted in the circuit breaker panel on the
+ right side of the fuselage.
+\end_layout
+
+\begin_layout Section
+Seats
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+ has two fixed seats provided with impact absorbing high density foam cushions.
+ The seats are constructed of aluminium extrusions and formed sheeting.
+ The seats are easily removable by extracting the piano hinge securing the
+ seats to the floor.
+ The distance from the front seat to the rudder pedals can be adjusted by
+ moving the rudder pedal assembly fore and aft.
+ Both front and rear seats are fitted with full five point harness restraints
+ suitable for acrobatic flight.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename cockpit-dimensions.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Arm rests for both seats, headset jacks, auxiliary power points and storage
+ compartments are all standard on the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+.
+ The sliding canopy and baggage doors are equipped with locks operated by
+ the same key.
+ A tow bar is provided with each airplane and, when not in use, is stowed
+ in the baggage compartment.
+\end_layout
+
+\begin_layout Section
+Radio Equipment
+\end_layout
+
+\begin_layout Standard
+In the standard model of the
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+ 
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+, provisions for radio installations include dual microphone and headset
+ jacks, a microphone and headset mounting bracket, wiring to these units
+ and panel space for at least two radio sets.
+ Radios, in different combinations, are available and are specifically chosen
+ to provide in the RV-8A all of the most recent radio developments normally
+ desired in this type of aircraft.
+\end_layout
+
+\begin_layout Section
+Ventilation
+\end_layout
+
+\begin_layout Standard
+The flow of air for cooling the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+ cabin may be controlled by the ball valve on instrument panel.
+ Air is exhausted through an outlet on the rear of the cabin.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename logo-sm.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+OPERATING INSTRUCTIONS
+\end_layout
+
+\begin_layout Section
+Preflight
+\end_layout
+
+\begin_layout Standard
+Be sure that you have been thoroughly checked out before operating this
+ aircraft.
+ The following safety procedure instructions must become an integral part
+ of the pilot's operational routine and/or preflight inspection.
+ Before each flight, visually inspect the airplane and/or determine that:
+\end_layout
+
+\begin_layout Enumerate
+The tires are satisfactorily inflated and not excessively worn.
+\end_layout
+
+\begin_layout Enumerate
+The landing gear pants are free of debris and do not interfere with the
+ wheels.
+\end_layout
+
+\begin_layout Enumerate
+The propeller is free of detrimental nicks.
+\end_layout
+
+\begin_layout Enumerate
+The ground area under propeller is free of loose stones, cinders, etc.
+\end_layout
+
+\begin_layout Enumerate
+The cowling and inspection opening covers are secure.
+\end_layout
+
+\begin_layout Enumerate
+There is no external damage or operational interference to the control surfaces,
+ wings or fuselage.
+\end_layout
+
+\begin_layout Enumerate
+The windshield is clean and free of defects.
+\end_layout
+
+\begin_layout Enumerate
+There is no snow, ice or frost on the wings or control surfaces.
+\end_layout
+
+\begin_layout Enumerate
+The tow-bar and control locks are detached and properly stowed.
+\end_layout
+
+\begin_layout Enumerate
+The fuel tanks are full or are at a safe level of proper fuel.
+ 
+\end_layout
+
+\begin_layout Enumerate
+The fuel tank caps are tight.
+\end_layout
+
+\begin_layout Enumerate
+The fuel system vents are open.
+\end_layout
+
+\begin_layout Enumerate
+The fuel strainers and fuel lines are free of water and sediment by draining
+ once a day.
+\end_layout
+
+\begin_layout Enumerate
+The fuel tanks and throttle body is free of water and sediment by draining
+ sumps once a week.
+\end_layout
+
+\begin_layout Enumerate
+There are no obvious fuel or oil leaks.
+\end_layout
+
+\begin_layout Enumerate
+The engine oil is at proper level.
+\end_layout
+
+\begin_layout Enumerate
+The brakes are working properly.
+\end_layout
+
+\begin_layout Enumerate
+The radio equipment is in order.
+\end_layout
+
+\begin_layout Enumerate
+The weather is satisfactory for the type of flying you expect to do
+\end_layout
+
+\begin_layout Enumerate
+All required papers are in order and in the airplane.
+\end_layout
+
+\begin_layout Enumerate
+Upon entering the plane, ascertain that all controls operate normally, that
+ the flaps and other controls are in proper positions and that the canopy
+ is locked
+\end_layout
+
+\begin_layout Section
+Starting
+\end_layout
+
+\begin_layout Standard
+Before starting the engine, the pilot should set the parking brake and turn
+ on the master switch and the electric fuel pump.
+ When the engine is cold, (under 5 °C) prime the engine by advancing the
+ mixture control to RICH until fuel flow is indicated then pull back to
+ idle cut-off.
+ 
+\end_layout
+
+\begin_layout Standard
+After making sure that the propeller is clear, turn the magnetos on and
+ engage the starter.
+ As the engine fires, advance the mixture control.
+ If the above procedure does not start the engine, re-prime and repeat the
+ process.
+ Continue to load cylinders by priming or unload by turning the engine over
+ with the throttle open.
+ If the engine still doesn't start, check for malfunctioning of ignition
+ or fuel system.
+ 
+\end_layout
+
+\begin_layout Standard
+If the engine is hot, the priming steps should be omitted.
+ The fuel pump should remain OFF and the mixture control should remain in
+ idle cut-off until the engine fires.
+ 
+\end_layout
+
+\begin_layout Standard
+If the engine is flooded, the master switch and the magneto switches should
+ be ON, the electric fuel pump OFF, the throttle fully open and the mixture
+ control in idle cut-off.
+ When the starter is engaged and the engine fires, the throttle control
+ should be retarded and the mixture control advanced.
+ 
+\end_layout
+
+\begin_layout Standard
+Starter manufacturers recommend that cranking periods be limited to ten
+ seconds with a two minute rest between cranking periods.
+ Longer cranking periods will shorten the life of the starter.
+ 
+\end_layout
+
+\begin_layout Standard
+Starter manufacturers recommend that cranking periods be limited to ten
+ seconds with a two minute rest between cranking periods.
+ Longer cranking periods will shorten the life of the starter.
+\end_layout
+
+\begin_layout Section
+Warm-Up and Ground Check
+\end_layout
+
+\begin_layout Standard
+As soon as the engine starts, the oil pressure should be checked.
+ If no pressure is indicated within thirty seconds, stop the engine and
+ determine the trouble.
+ (If a very cold temperature exists (-12 °C or below) a little longer period
+ of time may be necessary).
+ 
+\end_layout
+
+\begin_layout Standard
+Warm-up the engines at 1000 to 1400 RPM for not more than two minutes in
+ warm weather, four minutes in cold weather.
+ Avoid prolonged idling at low RPM as this practice may result in fouled
+ spark plugs.
+ If electrical power is needed from the alternator, the engines can be warmed
+ at 2000 RPM at which point the alternator is putting out full charge.
+ The magnetos should be checked at 2000 RPM with 15" Hg.
+ MP and the propeller in flat pitch, the drop not to exceed 125 RPM.
+ The engines are warm enough for take-off when the throttles can be opened
+ without engine faltering.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename circuit-breakers.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The electric fuel pumps should be turned off after starting or during warm-up
+ to make sure that the engine driven pumps are operating.
+ Prior to take-off the electric pumps should be turned on again to prevent
+ loss of power during take-off due to fuel pump failure.
+\end_layout
+
+\begin_layout Section
+Take-Offs Climbs and Stalls
+\end_layout
+
+\begin_layout Standard
+A Normal takeoff is performed with flaps retracted.
+ A Short field takeoff is performed with one-third flap, which is set by
+ deflecting the ailerons fully and extending the flaps so that the flap
+ angle matches the angle of the down aileron (12 degrees).
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename fuel-selector.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+After the take-off has proceeded to the point where a landing can no longer
+ be made wheels-down in event of power failure, the flap, if used, can be
+ retracted.
+ The throttle should be brought back to climbing power, 24" MP and the RPM
+ reduced to 2400.
+ The best rate of climb is obtained at 90 kts, but to give a high forward
+ speed as well as a good rate of climb, a cruising climb speed of 100 kts
+ is recommended.
+ All controls are effective at speeds down through the stalling speed and
+ stalls are gentle and easily controlled.
+ 
+\end_layout
+
+\begin_layout Subsection*
+STALL SPEED TABLE
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Configuration
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Power Off
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Flaps Extended
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+51
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Flaps Retracted
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+56
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+These figures are at gross weight (816 kg) in knots (kts).
+\end_layout
+
+\begin_layout Section
+Cruising
+\end_layout
+
+\begin_layout Standard
+The cruising speed of the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The normal recommended economy cruising power setting of the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The optimum cruising speed of the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The Lycoming engine on the
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+ 
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename throttle-quadrant.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Use of the mixture control in cruising flight reduces fuel consumption at
+ least 10% according to altitude.
+ The fuel consumption data in this manual is for cruising with the mixture
+ leaned.
+ 
+\end_layout
+
+\begin_layout Standard
+There is no problem in overheating the engine cylinders on the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename aileron-trim.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Detailed cylinder head temperature information is provided by the EFIS.
+ The engines run very rich at the full rich mixture position and leaning
+ is essential to achieve satisfactory economy of operation.
+ 
+\end_layout
+
+\begin_layout Standard
+To lean, pull back the mixture control to the farthest aft point at which
+ a rapid forward movement of the control does not produce a momentary surge
+ in RPM, indicating that the mixture has been too lean for maximum power.
+ To get optimum leaning, the control must be within 3 mm forward of this
+ point, which may be established by using a thumbnail as a temporary marker,
+ or adding a pencil reference line on the quadrant placard.
+ 
+\end_layout
+
+\begin_layout Section
+Approach and Landing
+\end_layout
+
+\begin_layout Standard
+During the approach, the first stage of flap (10°) can be lowered at speeds
+ under 87 kts, preferably on the downwind leg.
+ Flaps should be low¬ered in final approach at an airspeed under 85 kts
+ and the air¬plane trimmed to a gliding speed of 70 kts.
+ Normally about 12" MP should be maintained to give a reasonable approach
+ angle.
+ For aircraft with a constant speed propeller, RPM should be left at high
+ cruising RPM or approximately 2400.
+ This propeller setting gives ample power for an emergency go-around and
+ will prevent over-speeding of the engines if the throttle is advanced sharply.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename rear-throttle.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The mixture control should be kept in full rich position to insure maximum
+ acceleration if it should be neces¬sary to open throttle again.
+\end_layout
+
+\begin_layout Standard
+The amount of flap used during landings and the speed of the airplane at
+ contact should be varied according to the wind, the landing surface and
+ other factors.
+ It is always best to contact the ground at the minimum practicable speed
+ consistent with landing conditions.
+\end_layout
+
+\begin_layout Standard
+Normally, the best technique for short and slow landings is to use full
+ flap and a small amount of power, holding the nose up as long as possible
+ before and after ground contact.
+ In high wind conditions, particularly in strong crosswinds, it may be desirable
+ to approach the ground at higher than normal speeds, with half or no flaps.
+\end_layout
+
+\begin_layout Standard
+Landing Check List:
+\end_layout
+
+\begin_layout Enumerate
+Mixture rich.
+\end_layout
+
+\begin_layout Enumerate
+Propeller at high cruising RPM.
+\end_layout
+
+\begin_layout Enumerate
+Electric fuel pump on.
+\end_layout
+
+\begin_layout Enumerate
+Fuel on proper tank.
+\end_layout
+
+\begin_layout Enumerate
+Flaps full down or as desired (under 85 kts).
+\end_layout
+
+\begin_layout Standard
+If it is necessary to "go around" apply full power and retract the flaps.
+\end_layout
+
+\begin_layout Section
+Stopping the Engine
+\end_layout
+
+\begin_layout Standard
+After the landing roll, the flaps should be retracted and the electric fuel
+ pump switched off.
+ After parking, the radios should also be turned off and the engine stopped
+ by pulling the mixture control aft to idle cut-off.
+ The throttle should be left full aft to avoid engine vibration while stopping.
+ Then the ignition and all master switches must be turned off and the aircraft
+ secured with chocks.
+\end_layout
+
+\begin_layout Section
+Emergency Procedures
+\end_layout
+
+\begin_layout Subsection
+ENGINE FAILURE
+\end_layout
+
+\begin_layout Standard
+An engine failure on the
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+ 
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+ during flight will require an emergency landing to be performed.
+ Trim the aircraft for the best glide speed of 105 kts.
+ Locate a suitable landing area within the gliding range and establish an
+ approach.
+\end_layout
+
+\begin_layout Standard
+If altitude permits, an engine re-start should be attempted.
+ If the engine does not start, close the throttle and set the mixture to
+ cutoff.
+ Switch off the fuel pump, close the fuel valve and continue with the emergency
+ landing.
+ Care should be taken to maintain the best gliding speed by using the elevator
+ and control the descent by maneuvering and using the flaps.
+ 
+\end_layout
+
+\begin_layout Subsection
+BRAKE FAILURE
+\end_layout
+
+\begin_layout Standard
+Main gear differential braking is the primary means of directional control
+ below 15 kts, landing with one brake out poses a special kind of problem.
+ If possible, select a runway with a crosswind coming from the side of the
+ failed brake.
+ The aircraft will weather vane into the crosswind and by careful application
+ of the remaining good downwind brake, adequate directional control can
+ be maintained.
+ If it is inevitable that the aircraft will exit the runway surface and
+ enter rough terrain or strike an obstacle, a ground loop performed using
+ the remaining brake may be the better option and should be considered.
+\end_layout
+
+\begin_layout Subsection
+ALTERNATOR FAILURE
+\end_layout
+
+\begin_layout Standard
+The alternator indicator warning light will illuminate indicating that the
+ alternator is producing insufficient energy to run accessories and/or charge
+ the battery.
+ Also the Low Volt warning will be issued when main bus voltage drops below
+ 13V.
+\end_layout
+
+\begin_layout Standard
+Cycle the alternator field switch to see if the alternator will come back
+ online.
+ Pull and reset the 70A alternator B lead circuit breaker.
+ If alternator output is not able to be restored, the remaining battery
+ power will need to be rationed for the remainder of the flight.
+ 
+\end_layout
+
+\begin_layout Standard
+Switch OFF the alternator relay to shed all alternator loads and isolate
+ the auxiliary battery.
+ All non-essential equipment should be switched OFF to conserve power.
+ 
+\end_layout
+
+\begin_layout Standard
+If needed, switch ON the EFIS backup to provide the EFIS with backup power
+ from the auxiliary battery.
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+NOTE - The transponder cycle time can be as long as 5 minutes and the EFIS
+ startup pages each need to be acknowledged (using ENT key) following restoratio
+n of radio power.
+ 
+\end_layout
+
+\begin_layout Subsection
+EMERGENCY LANDINGS
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+ is equipped with an anti-splat nose leg and lip skid designed to take emergency
+ landings without extensive damage to the structure of the airplane.
+ 
+\end_layout
+
+\begin_layout Subsection
+EMERGENCY DESCENT
+\end_layout
+
+\begin_layout Standard
+If an immediate, rapid descent is required from altitude, roll the airplane
+ into 45 degrees of bank or more (60-70 degrees desired) and apply 2-3 G's
+ while simultaneously reducing the power to idle.
+ Maintain a maximum of maneuvering speed (120 kts) during the spiral descent.
+ The propeller will provide some drag at idle power.
+ Operating at or near Cl
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+max
+\end_layout
+
+\end_inset
+
+ will increase induced drag and assist with increasing descent rate and
+ controlling airspeed.
+ If practical, slow below 85 kts, lower full flaps and maintain 2 to 2.5
+ g maximum, or buffet onset, whichever occurs first.
+\end_layout
+
+\begin_layout Subsection
+IN-FLIGHT DOOR CLOSING PROCEDURE
+\end_layout
+
+\begin_layout Standard
+In the event the door is inadvertently unlocked in flight or should the
+ handle not be pushed forward to its full locked position before take-off
+ and becomes dislodged from its latching mechanism, the following procedure
+ has been determined to be practicable for closing the cabin door while
+ in flight, assuming adequate altitude has been attained.
+\end_layout
+
+\begin_layout Enumerate
+Retard throttle
+\end_layout
+
+\begin_layout Enumerate
+Reduce airspeed to 90 kts or less
+\end_layout
+
+\begin_layout Enumerate
+Open air vent (left of pilot)
+\end_layout
+
+\begin_layout Enumerate
+Close door
+\end_layout
+
+\begin_layout Enumerate
+Recover power and airspeed
+\end_layout
+
+\begin_layout Standard
+Other conditions, take-off, landing approach and general low altitude flight,
+ will require action at the discretion of the pilot.
+\end_layout
+
+\begin_layout Section
+Ground Handling and Mooring
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+ should be moved on the ground with the aid of the nose wheel steering bar
+ provided with each plane and installed in the baggage compartment.
+\end_layout
+
+\begin_layout Standard
+Tie down ropes for mooring the airplane can be fastened to the wing tie
+ down rings and at the tail skid.
+\end_layout
+
+\begin_layout Standard
+The aileron and elevator controls should be secured by means of a safety
+ belt or control locks to prevent control surface damage.
+ The rudder is held in position by its connections with the rudder pedals
+ and does not need to be secured except under unusually high wind conditions.
+\end_layout
+
+\begin_layout Section
+Weight and Balance
+\end_layout
+
+\begin_layout Standard
+For weight and balance data, see the Weight and Balance Form, which gives
+ the exact weight of the airplane and permissible center of gravity conditions.
+\end_layout
+
+\begin_layout Section
+Operation Tips
+\end_layout
+
+\begin_layout Standard
+In the operation of the
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+ 
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+, as in that of any other type of aircraft, there are a few points of technique
+ and information that apply particularly to this model.
+ The following Operating Tips may be helpful in the operation of the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Enumerate
+Learn to trim the airplane for take-off so that only a very light back pressure
+ on the wheel is required to lift the ship off the ground.
+\end_layout
+
+\begin_layout Enumerate
+The best speed for take-off is at about 65 kts under normal conditions.
+ Trying to pull the airplane off the ground at too low an airspeed decreases
+ the controllability of the airplane in event of engine failure.
+ 
+\end_layout
+
+\begin_layout Enumerate
+The flaps may be lowered at airspeeds up to 85 kts.
+ To reduce flap operating loads, however, it is desirable to have the airplane
+ at a slower speed before extending the flaps.
+\end_layout
+
+\begin_layout Enumerate
+Before attempting to reset any circuit breaker, allow a two to five minute
+ cooling off period.
+\end_layout
+
+\begin_layout Enumerate
+Before starting the engine ascertain that all radio switches, light switches
+ and the pitot heat switch are in the off position so as not to create an
+ overloaded condition when the starter is engaged.
+\end_layout
+
+\begin_layout Enumerate
+The trim tab on the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+ is very responsive and a small adjustment in trim control gives a rapid
+ trim change attitude.
+\end_layout
+
+\begin_layout Enumerate
+The Lycoming Engine on the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+ run very rich at the full rich position of the mixture control and must
+ be leaned under all cruise conditions to achieve satisfactory economy.
+\end_layout
+
+\begin_layout Enumerate
+Flight when outside air temperatures are between -7 °C and 21 °C can cause
+ the air intake to become obstructed with ice, leading to loss of engine
+ power.
+ In most cases when an engine loses manifold pressure without apparent cause,
+ the use of alternate air will correct the condition.
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+NOTE - Alternate air cannot be fully reset using the cockpit control and
+ should be manually checked and reset after use by closing the alternate
+ air flap inside the engine cowl after landing.
+\end_layout
+
+\begin_layout Section
+Radio Operation
+\end_layout
+
+\begin_layout Standard
+Communication and Transponder equipment controls are located in the center
+ of the instrument panel.
+ Associated auxiliary switch¬es are located on a separate panel on the right
+ side console.
+ Circuit breakers are located on the same panel as the other circuit breakers.
+\end_layout
+
+\begin_layout Standard
+All sets may be turned ON by the switch located on the control head of each
+ particular unit, with the exception of the EFIS which has its switch located
+ on the right hand console panel.
+\end_layout
+
+\begin_layout Standard
+After power is supplied, the pilot may wish to operate the transmitter by
+ moving the transmitter selector switch to the proper position.
+ The switch is located on the selector switch panel.
+\end_layout
+
+\begin_layout Standard
+A Flightcom Model 403mc intercom provides audio cockpit communication to
+ both occupants.
+ The intercom is a monaural unit compatible with most aviation headsets
+ and provides two station radio transmit capability.
+\end_layout
+
+\begin_layout Standard
+A ATD-300 Traffic Watch TCAS unit is located on the left side of the panel,
+ thus providing traffic collision avoidance.
+\end_layout
+
+\begin_layout Section
+Fuel Injection
+\end_layout
+
+\begin_layout Standard
+The Precision Silver Hawk EX360-1 fuel injection system is based on the
+ principle of measuring engine air consumption by use of a venturi tube
+ and using airflow to control fuel flow to the engine.
+ Fuel distribution to the cylinders is accomplished by a fuel flow divider.
+ 
+\end_layout
+
+\begin_layout Standard
+Fuel pressure regulation by means of the servo valve causes a minimal drop
+ in fuel pressure throughout the metering system.
+ Metering pressure is maintained above vapor forming conditions while fuel
+ inlet pressure is low enough to allow the use of a diaphragm pump.
+ Vapor lock and associated problems of difficult starting are thus eliminated.
+\end_layout
+
+\begin_layout Standard
+Incorporated in the servo regulator is the airflow sensing system which
+ contains a throttle valve and venturi.
+ The differential pressure between the entrance and the throat of the venturi
+ is the measurement of air entering the engine.
+ These pressures are applied across an air diaphragm in the regulator.
+\end_layout
+
+\begin_layout Standard
+Mounted on top of the engine is the ported fuel flow divider with four nozzles
+ routed to the cylinders.
+ The divider contains a spring loaded positive shutoff valve.
+ Within each cylinder are continuous flow air bleed nozzles with provisions
+ to eliminate the adverse effects of low manifold pressure when idling.
+ Since fuel metering is provided by the servo regulator rather than the
+ nozzles, more uniform cylinder head temperatures result and a longer engine
+ life is possible.
+\end_layout
+
+\begin_layout Standard
+Induction air for the engine enters the opening in the nose cowl and is
+ picked up by a large air duct at the right rear baffle.
+ The air is directed to a filter and on to the servo regulator.
+ An alternate air source for the induction system contains a door directly
+ below the air filter.
+ This door operates manually by the push-pull control to the right and in
+ front of the throttle quadrant.
+ The primary system should always be used for takeoff.
+\end_layout
+
+\begin_layout Section
+Low Power Low RPM Cruise
+\end_layout
+
+\begin_layout Standard
+The high price of aviation fuel is causing aircraft owners and pilots to
+ review their operations in search of ways to keep operating costs down.
+ Those operating aircraft with controllable propellers have been requesting
+ information on cruise operation in the low RPM range - 1800 or 1900 RPM
+ for example.
+ The number of queries received indicates great deal of interest and therefore
+ it seems appropriate to share the information on this subject with all
+ of our readers.
+\end_layout
+
+\begin_layout Standard
+The Textron Lycoming Engine Operator's Manual has performance curves applicable
+ to each engine series.
+ The curve for the IO-360-M1B series, 180 horsepower engine imprinted here
+ as a reference for this article.
+ The curve does provide data on the maximum manifold pressure (MP), which
+ may be used with any particular RPM at sea level and at altitude.
+ The limiting manifold pressure line clearly restricts high manifold pressures
+ with low RPM settings.
+ There is a good reason for this; high manifold pressure and low RPM is
+ similar to allowing your automobile to lug uphill in fourth gear.
+ The pinging you hear in your automobile tells you that detonation is occurring
+ and you should shift down to a lower gear.
+ In an aircraft, detonation is not likely to be heard as damage occurs in
+ the engine and it is then too late for preventive measures.
+ For this reason, engine operation should be within the limitations established
+ in the Pilot's Operating Handbook (POH).
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename right-lower-cluster.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Flight Operations
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="5">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="10col%">
+<column alignment="center" valignment="top" width="10col%">
+<column alignment="center" valignment="top" width="10col%">
+<column alignment="center" valignment="top" width="10col%">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Operation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RPM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Power 
+\end_layout
+
+\begin_layout Plain Layout
+(HP)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Speed (kts)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fuel flow
+\end_layout
+
+\begin_layout Plain Layout
+(l/hr)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Normal max rated
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2700
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+180
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+47
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Performance cruise @ 75% pwr
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2450
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+135
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+175
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+43
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Economy cruise @ 65% pwr
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2350
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+117
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+155
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+33
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cruise @ 55% power
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+99
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+29
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Approach flaps up
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+72
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Approach flaps down
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+65
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+STALLS
+\end_layout
+
+\begin_layout Standard
+Stall characteristics of the RVs are straightforward and predictable.
+ They occur with relatively little pre-stall buffet warning, but at an obviously
+ high angle of attack and slow speed.
+ The break is gentle and control may be regained instantly with normal recovery
+ procedures, often by simply relaxing back-pressure on the stick.
+ The usual altitude loss is 25-50 ft and can be held to zero by a quick
+ application of power.
+ There is little tendency to drop a wing unless provoked with a skid or
+ slip.
+\end_layout
+
+\begin_layout Subsection
+SPINS
+\end_layout
+
+\begin_layout Standard
+Spin resistance of the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+ is very good.
+ Very definite pro-spin control inputs are necessary to provoke spin entry.
+ Usually spin recovery can be achieved within the first revolution just
+ by relaxing pro-spin control pressures.
+ From fully developed spins, recovery is achieved by application of normal
+ anti-spin control inputs.
+\end_layout
+
+\begin_layout Subsection
+AEROBATICS
+\end_layout
+
+\begin_layout Standard
+It is recommended that the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+ be limited to sport aerobatics; aerobatic maneuvers done solely for the
+ enjoyment to the pilot rather than of spectators or judges.
+ These maneuvers can be tailored to be gentle to both the airplane and the
+ pilot.
+ The
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+ 
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+ can perform all the usual aerobatic maneuvers (see below) easily and gracefully
+ at low g loads.
+ It is rarely necessary to dive to attain entry speeds.
+ 
+\end_layout
+
+\begin_layout Standard
+Maneuvering speed is 123 kts; maximum aerobatic weight is 700 kg and maximum
+ aft CG is 217 cm when contemplating aerobatics.
+\end_layout
+
+\begin_layout Standard
+The maneuvering speed is highest speed at which full and abrupt control
+ can be applied without exceeding design loads.
+ This is not highest permissible aerobatic entry speed, but control inputs
+ must be limited to less than full at any speed above maneuvering speed.
+\end_layout
+
+\begin_layout Standard
+The entry speeds for some maneuvers can vary over a wide range due to the
+ large ratio of maximum speed to stall speed.
+ For vertical maneuvers, Loops, Immelmann turns and Cuban eights, entry
+ speed has an inverse relationship to g forces required to complete the
+ maneuver.
+ An entry speed at lower speeds will require a higher G pull up than for
+ entry near top end of speed range.
+\end_layout
+
+\begin_layout Quotation
+
+\emph on
+WARNING: Airspeed builds up very quickly, particularly in a dive.
+ The
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+ 
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+ is a pilot limited aircraft due to the light control - it is the pilot's
+ responsibility not to overstress the aircraft.
+ Control forces vary considerably with CG position - control forces at aft
+ CG are much lighter than stick forces at forward CG.
+\end_layout
+
+\begin_layout Standard
+Limits: +6G -3G 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Flight Regime
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Entry Speed (kts)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Loop / Cuban-8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+122 - 165
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Immelmann
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+130 - 165
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aileron rolls / barrel rolls
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+104 - 156
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Snap rolls 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+70 - 96
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Vertical rolls
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+156 - 165
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Split-S
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+87 - 96
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename logo-sm.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+CHARTS
+\end_layout
+
+\begin_layout Section
+Performance Charts
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Subsection*
+TAKEOFF DISTANCE
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+CONDITIONS:
+\begin_inset Newline newline
+\end_inset
+
+Flaps 17° (set flap angle to match down aileron angle at full aileron)
+\begin_inset Newline newline
+\end_inset
+
+2700 RPM, Full Throttle and Mixture Set prior to Brake Release
+\begin_inset Newline newline
+\end_inset
+
+Paved, Level, Dry Runway
+\begin_inset Newline newline
+\end_inset
+
+Zero Wind
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename takeoff_distance.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Subsection*
+LANDING DISTANCE 
+\end_layout
+
+\begin_layout Plain Layout
+CONDITIONS:
+\begin_inset Newline newline
+\end_inset
+
+ Full Flaps
+\begin_inset Newline newline
+\end_inset
+
+Power OFF
+\begin_inset Newline newline
+\end_inset
+
+Maximum Braking
+\begin_inset Newline newline
+\end_inset
+
+Paved, Level, Dry Runway
+\begin_inset Newline newline
+\end_inset
+
+Zero Wind
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename landing_distance.png
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Subsection*
+POWER REQUIRED - TAS
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align left
+Standard atmosphere
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename power_required.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+CRUISE SPEED
+\end_layout
+
+\begin_layout Standard
+CONDITIONS:
+\end_layout
+
+\begin_layout Standard
+Standard atmosphere
+\end_layout
+
+\begin_layout Standard
+Mixture set to best power for 75% power.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename cruise_speed.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+STALL SPEED GROSS WEIGHT
+\end_layout
+
+\begin_layout Standard
+CONDITIONS:
+\end_layout
+
+\begin_layout Standard
+Idle power
+\end_layout
+
+\begin_layout Standard
+Deceleration 1 kt/s
+\end_layout
+
+\begin_layout Subsection*
+CRUISE RANGE
+\end_layout
+
+\begin_layout Standard
+CONDITIONS:
+\end_layout
+
+\begin_layout Standard
+Standard atmosphere 
+\end_layout
+
+\begin_layout Standard
+Mixture leaned
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename cruise_range.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+FUEL FLOW
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align left
+Standard atmosphere
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename fuel-flow.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename altitude-conversion.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename glide-distance.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Section
+II.
+ Power Charts
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename power-chart.png
+	width 100col%
+	rotateAngle 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename power-chart-2.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename power-chart-3.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+GENERAL MAINTENANCE
+\end_layout
+
+\begin_layout Section
+Leveling and Rigging
+\end_layout
+
+\begin_layout Standard
+Leveling the
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+ 
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+ for purposes of reweighing or rigging is accomplished as follows:
+\end_layout
+
+\begin_layout Enumerate
+Put the airplane on jacks to obtain the longitudinally level position.
+\end_layout
+
+\begin_layout Enumerate
+To level the airplane laterally, place a bubble-protractor on a straight-edge
+ held along the front spar on the under surface of the wing.
+ Raise or lower the wing by pushing up or down on the tip until five degrees
+ of dihedral is indicated on the protractor.
+ The smooth, easy action of the landing gear makes it possible to position
+ the wing laterally with very little effort.
+ After checking the first wing at 3.5° dihedral, the opposite wing should
+ also be checked to make sure it has equal dihedral.
+\end_layout
+
+\begin_layout Subsection*
+RIGGING INSTRUCTION:
+\end_layout
+
+\begin_layout Standard
+Although the fixed flight surfaces on the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+ obviously cannot be adjusted in position for rigging purposes, it may be
+ necessary on occasion to check the positions of these surfaces.
+ The movable control surfaces, with the exception of the flaps, all have
+ adjustable stops, as well as adjustments on their cables or push-pull connectio
+ns, so that their range of movement can be altered.
+ The positions and travels of the various surfaces are as follows:
+\end_layout
+
+\begin_layout Enumerate
+Wings: 3.5° dihedral, washout 0°.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Stabilizer: No dihedral.
+ Incidence is 0° in relation to horizontal.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Fin: Should be vertical and in line with centerline of fuselage.
+\end_layout
+
+\begin_layout Enumerate
+Ailerons: Travel -30° up, 17° down.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Flaps: Travel -45 down.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Elevator: -30° up and 25° down.
+\end_layout
+
+\begin_layout Enumerate
+Rudder: Travel -35° left and 35° right.
+ 
+\end_layout
+
+\begin_layout Standard
+For the purpose of adjusting the lateral trim on the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+, aileron tabs are incorporated on both ailerons.
+ These tabs can be bent to position the aileron in flight, changing the
+ lateral trim as desired.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename side-view.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Tire Inflation
+\end_layout
+
+\begin_layout Standard
+For maximum service from the tires, keep the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+ main wheels inflated to 3 bar and the nose wheel to 2 bar.
+ Reverse the tires on the wheels, if necessary, to produce even wear.
+ All 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+ wheels and tires are balanced before original installation and the relationship
+ of tire, tube and wheel should be maintained upon reinstallation.
+ Out-of-balance wheels can cause extreme vibration in the landing gear during
+ take-off and landing.
+ In the installation of new components, it may be necessary to rebalance
+ the wheels with the tires mounted.
+\end_layout
+
+\begin_layout Section
+Battery Service
+\end_layout
+
+\begin_layout Standard
+Access to the 12 volt, 18 ampere hour (Odyssey PC625) main battery is obtained
+ by removing the rear baggage panel.
+ The battery is installed on an aluminium and wood tray and secured with
+ a clamp.
+ The battery is of sealed gel type and requires no routine maintenance.
+\end_layout
+
+\begin_layout Standard
+Access to the 12 volt, 8 ampere hour (Odyssey PC310) auxiliary battery is
+ obtained by opening the battery box located in the nose baggage compartment.
+ The battery is installed on an aluminium steel tray and secured with ties.
+ The battery is of sealed gel type and requires no routine maintenance.
+\end_layout
+
+\begin_layout Standard
+If either of the batteries are not up to proper charge, recharge starting
+ with a charging rate of 4 amps and finishing with 2 amps.
+ Quick charges are not recommended.
+\end_layout
+
+\begin_layout Section
+Brake Service
+\end_layout
+
+\begin_layout Standard
+The brake system is filled with MIL-PRF-5606 (petroleum base red) hydraulic
+ fluid.
+ This should be checked at every 100 hours inspection and replenished when
+ necessary.
+\end_layout
+
+\begin_layout Standard
+Do not use vegetable base brake fluids (blue) when refilling the system.
+ When it is necessary to add fluid, remove the upper engine cowl, exposing
+ the brake reservoir located on the firewall.
+ Then add fluid to the reservoir, bringing the fluid to the indicated level.
+\end_layout
+
+\begin_layout Standard
+If it is necessary to bleed the brake system to get air out of the lines,
+ fluid should be added under pressure at the bleeder attachment on the brake
+ unit.
+\end_layout
+
+\begin_layout Standard
+No adjustment of brake clearances is necessary on the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+ brakes.
+ If after extended service, braking action requires too much movement of
+ the toe pedal, new brake linings can easily be installed by removing the
+ four bolts which attach the brake units, then replac¬ing the brake linings
+ held in place by brass rivets.
+\end_layout
+
+\begin_layout Standard
+Main wheels are quickly removed by first cutting the safety wire and removing
+ eight bolts to drop the brake lining.
+ Remove the dust cover, cotter pin and axle nut.
+ The wheel will slip off the axle.
+ The nose wheel is removed by taking off the hub nut and withdrawing the
+ axle bolt, the axle retainer cups and the axle from the nose wheel fork.
+\end_layout
+
+\begin_layout Standard
+Tires are dismounted from the wheels by deflating the tube, then removing
+ the wheel through bolts, allowing the wheel halves to be separated.
+ In reassembling the wheels, care should be taken to torque the bolts properly,
+ according to instruction on the wheels.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename batterry.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Landing Gear Service
+\end_layout
+
+\begin_layout Standard
+In jacking the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+ up for landing gear and other service, the Jack Kit (available through
+ the BVH Distributor Service Department) should be used.
+ This kit includes two hydraulic jacks and a tail support; the jacks are
+ placed under <where?> and the tail support attached to the tail skid.
+\end_layout
+
+\begin_layout Standard
+Approximately 100 kg of ballast should be placed on the base of the tail
+ support to hold the tail down.
+ Then the jacks should be raised until all three wheels are clear of the
+ floor.
+\end_layout
+
+\begin_layout Standard
+The right and left landing gear units on the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+ are completely interchangeable.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename rudder-pedals.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+All inside components are identical on both nose and main gears.
+\end_layout
+
+\begin_layout Standard
+The operation of the landing gear is standard for the sprung type; and requires
+ no maintenance apart from checking for cracks.
+ 
+\end_layout
+
+\begin_layout Standard
+To check shimmy of the nose wheel, if it should develop:
+\end_layout
+
+\begin_layout Enumerate
+The nose wheel tire pressure should be between 1.7-2.4 bar (25-35 psi).
+ Lower pressure is preferable because it increases the tire drag, which
+ will help to damp any shimmy.
+ Main tires should also be inflated to between 1.7-2.4 bar.
+\end_layout
+
+\begin_layout Enumerate
+Ensure that the wheel and tire assemblies are properly balanced.
+\end_layout
+
+\begin_layout Enumerate
+Check for uneven tire wear.
+\end_layout
+
+\begin_layout Enumerate
+The nose wheel axle bolt should be torqued to 9.5-13.5 Nm (7-10 pounds).
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+\align block
+Check the engine mount and gear leg for any cracks or play.
+ The gear leg attach bolt, at the top of the leg, may be loose allowing
+ movement of the leg in the mount socket.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename front-fork.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+The nose fork disc springs should be clean and mounted correctly (SEE ABOVE)
+\end_layout
+
+\begin_layout Enumerate
+Breakout force should be set at 100 N (22 lb force) (SEE DWG C-1).
+\end_layout
+
+\begin_layout Standard
+ 
+\end_layout
+
+\begin_layout Standard
+The nose gear unit is dismounted by removing the nose wheel cowling and
+ the leg fairing covering the top of the nose gear and extracting the landing
+ gear bolt.
+\end_layout
+
+\begin_layout Standard
+Removal of the landing gear wheels is done as follows: 
+\end_layout
+
+\begin_layout Enumerate
+Remove the split pin from the castellated nut on the axle and then remove
+ the nut
+\end_layout
+
+\begin_layout Enumerate
+Pull out the axle and remove the wheel from the fork.
+ Care should be taken not to drop the wheel bearings.
+\end_layout
+
+\begin_layout Enumerate
+Remove the upper bearing retainer pins and slide both upper and lower bearings
+ from the strut.
+ The O-rings and wiper strips are then exposed for inspection.
+\end_layout
+
+\begin_layout Standard
+To refit the landing gear wheel, reverse the above procedure, being very
+ careful to see that the snap ring and the upper bearing retainer pins are
+ properly reinstalled.
+\end_layout
+
+\begin_layout Standard
+In the event that a wheel slowly loses pressure, the most probable source
+ of trouble is a wheel puncture or faulty air valve.
+ These parts should be checked first to determine whether or not air leaks
+ are occurring.
+ In the case of a puncture, it is recommended that the inner tube be replaced.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename nose-wheel-diagram.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Hydraulic System Service
+\end_layout
+
+\begin_layout Standard
+The hydraulic system is filled by adding fluid to the reservoir, located
+ on the firewall.
+ Only petroleum base hydraulic fluid, MIL-PRF-5606, should be used.
+\end_layout
+
+\begin_layout Standard
+To add fluid to the system, remove the cap from the filler neck and fill
+ the system completely while holding the filler tube extension level.
+ Then turn the elbow on the filler tube down until the excess oil has drained
+ out.
+ (See separate instructions for filling, cleaning and bleeding the complete
+ hydraulic system).
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename brake-lines.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Fuel Requirements
+\end_layout
+
+\begin_layout Standard
+Aviation grade 100LL octane should be used in the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+.
+ The use of lower grades of fuel can cause serious engine damage in a very
+ short period of time and is considered of such importance that the engine
+ warranty is invalidated by such use.
+\end_layout
+
+\begin_layout Standard
+The oil capacity of the Lycoming IO-360 engine is 8 liters.
+ It is recommended that engine oil be changed every 50 flying hours or sooner
+ under unfavorable conditions.
+ The minimum safe quantity of oil required is 4 liters.
+ The following grades are required for the specified temperatures:
+\end_layout
+
+\begin_layout Standard
+Temperatures above 15 °C
+\end_layout
+
+\begin_layout Standard
+Temperatures between 0 °C and 30 °C
+\end_layout
+
+\begin_layout Standard
+Temperatures between -30 °C and 20 °C
+\end_layout
+
+\begin_layout Standard
+Temperatures below 30 °C SAE 50
+\end_layout
+
+\begin_layout Standard
+SAE 40
+\end_layout
+
+\begin_layout Standard
+SAE 30
+\end_layout
+
+\begin_layout Standard
+SAE 20
+\end_layout
+
+\begin_layout Section
+Care of Air Filter
+\end_layout
+
+\begin_layout Standard
+The throttle body air filters must be cleaned at least once every fifty
+ hours and depending on the type of condition existing, it may be necessary
+ to clean the filters daily or every five hours.
+ Extra filters are inexpensive and should be kept on hand and used for rapid
+ replacement.
+\end_layout
+
+\begin_layout Standard
+The following cleaning procedure is recommended by the manufacturer of the
+ filter:
+\end_layout
+
+\begin_layout Enumerate
+Remove filter, inspect and clean by tapping it against a hard surface to
+ remove grit, sand and dirt.
+ (Do not blow out with an air hose, soak in oil, or cleaning fluid).
+\end_layout
+
+\begin_layout Enumerate
+If the filter is found to be in good condition and is not obstructed after
+ being properly cleaned, reinstall filter.
+\end_layout
+
+\begin_layout Section
+Care of Windshield and Canopy
+\end_layout
+
+\begin_layout Standard
+The windshield and canopy are made of Plexiglas and a cer¬tain amount of
+ care is required to keep them clean and clear.
+ The following procedure is suggested:
+\end_layout
+
+\begin_layout Enumerate
+Flush with clean water and dislodge excess dirt, mud, etc.
+ with your hand.
+\end_layout
+
+\begin_layout Enumerate
+Wash with mild soap and warm water.
+ Use a soft cloth or sponge.
+ (Do not rub)
+\end_layout
+
+\begin_layout Enumerate
+Remove oil, grease or sealing compounds with a cloth soaked in kerosene.
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+CAUTION - Do not use gasoline, alcohol, benzene, carbon tetrachloride, lacquer
+ thinner or window cleaning sprays.
+ 
+\end_layout
+
+\begin_layout Enumerate
+After cleaning, apply a thin coat of hard polishing wax.
+ Rub lightly with a soft dry cloth.
+ 
+\end_layout
+
+\begin_layout Enumerate
+A severe scratch or mar can be removed by using jewelers rouge to rub out
+ scratch, smooth on both sides and apply wax.
+\end_layout
+
+\begin_layout Section
+Serial Number Plate
+\end_layout
+
+\begin_layout Standard
+The serial number plate on the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+ is located against the aft baggage compartment wall below the hat rack.
+ The serial number of the plane should always be used in referring to the
+ airplane in service or warranty matters.
+\end_layout
+
+\begin_layout Subsubsection*
+Lycoming Engine
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename lycoming-engine-1.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename lycoming-engine-2.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename lycoming-engine-3.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Garmin G3X CAN bus
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename g3x-can-bus.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+WEIGHT AND BALANCE DATA
+\end_layout
+
+\begin_layout Section
+Loading Sheet 
+\end_layout
+
+\begin_layout Standard
+Make: Vans
+\end_layout
+
+\begin_layout Standard
+Model: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Serial Number: 82612
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="12" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="60col%">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Datum:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+178 cm forward of the wing leading edge (LE)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Design CG Range:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15% to 29% of wing cord (200 to 221 cm aft of Datum)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Wing LE:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+178 cm aft of Datum
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Main wheel right:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+237 cm aft of Datum
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Main wheel left:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+237 cm aft of Datum
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nose Wheel:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+82 cm aft of Datum
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fuel:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+203 cm aft of Datum
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Pilot:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+233 cm aft of Datum
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Passenger:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+303 cm aft of Datum
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Forward Baggage: 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+149 cm aft of Datum
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aft Baggage Floor: 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+351 cm aft of Datum 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aft Baggage Shelf: 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+388 cm aft of Datum 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename loading-sheet-side.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Aircraft weighed empty in level attitude.
+ (Includes ? lit of oil plus unusable fuel)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="4">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Weight (kg)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Arm (cm)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Moment
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Right Wheel
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family typewriter
+189.8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family typewriter
+236.8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family typewriter
+45181 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Left Wheel
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family typewriter
+186.6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family typewriter
+236.8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family typewriter
+44423
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tail Wheel
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family typewriter
+134.9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family typewriter
+82.3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family typewriter
+ 11102 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Total:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family typewriter
+511.3 kg
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Empty CG:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family typewriter
+196.0 cm
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+W&B Envelope 
+\end_layout
+
+\begin_layout Standard
+Datum: 178 cm forward of the wing leading edge (LE)
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename wb_envelope.png
+	width 90col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="4">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="30col%">
+<column alignment="left" valignment="top" width="30col%">
+<column alignment="center" valignment="top" width="20col%">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Category
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Description
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Maneuver
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Load factors
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Normal
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Non aerobatic
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stall from level flight
+\end_layout
+
+\begin_layout Plain Layout
+Steep turn of 60 deg
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++3.8g and -1.5g
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Utility
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Limited aerobatics
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Wingover / Lazy-8 / Chandelle
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++4.4g and -1.8g
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Acrobatic
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+None permitted
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Load Factor Limits
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="50col%">
+<column alignment="left" valignment="top" width="30col%">
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Flaps Retracted
+\end_layout
+
+\begin_layout Plain Layout
+weight 700 kg (1550 lb) and below: 
+\end_layout
+
+\begin_layout Plain Layout
+reducing linearly to 820 kg (1800 lb): 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
++6g to -3g 
+\begin_inset Newline newline
+\end_inset
+
++5g to -2.5g
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Flaps Extended: 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++2g to 0g
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename load-factor-limits.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The load factor limit varies linearly between 820 kg and 700 kg.
+\end_layout
+
+\begin_layout Standard
+NOTES:
+\end_layout
+
+\begin_layout Enumerate
+The load factor limits for weights above 703 kg (1550 lb) are not published
+ by Van's Aircraft, but are established based on conservative engineering
+ analysis of wing bending moment vs load factor.
+\end_layout
+
+\begin_layout Enumerate
+The load factor limits for flaps extended are based on FAR 23 structural
+ design criteria, which the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+umodel{}
+\end_layout
+
+\end_inset
+
+ aircraft is designed to.
+\end_layout
+
+\begin_layout Section
+Flight Envelope
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename flight-envelope.png
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Worked Examples
+\end_layout
+
+\begin_layout Subsubsection*
+Aerobatic loading - Solo
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename load-aerobatic-solo.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Aerobatic loading - Dual
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename load-aerobatic-dual.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Cross country loading - Payload
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename load-xc-payload.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Cross country loading - Range
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename load-xc-range.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+CHECKLISTS
+\end_layout
+
+\begin_layout Section*
+BEFORE STARTING ENGINES
+\end_layout
+
+\begin_layout Itemize
+Ballast CHECK
+\end_layout
+
+\begin_layout Itemize
+Baggage SECURE
+\end_layout
+
+\begin_layout Itemize
+Mass & balance CHECK
+\end_layout
+
+\begin_layout Itemize
+Performance CHECK
+\end_layout
+
+\begin_layout Itemize
+Documentation CHECK
+\end_layout
+
+\begin_layout Itemize
+Maps & charts CHECK
+\end_layout
+
+\begin_layout Itemize
+Cabin door LOCKED
+\end_layout
+
+\begin_layout Itemize
+Seat belts SECURE
+\end_layout
+
+\begin_layout Itemize
+Seats LOCKED and SECURE
+\end_layout
+
+\begin_layout Itemize
+Park brake ON
+\end_layout
+
+\begin_layout Itemize
+Altimeter SET
+\end_layout
+
+\begin_layout Itemize
+Controls FREE
+\end_layout
+
+\begin_layout Itemize
+Fuel ON
+\end_layout
+
+\begin_layout Itemize
+Circuit breakers CHECK
+\end_layout
+
+\begin_layout Itemize
+Avionics OFF
+\end_layout
+
+\begin_layout Section*
+STARTING ENGINES
+\end_layout
+
+\begin_layout Subsection*
+COLD START
+\end_layout
+
+\begin_layout Itemize
+Master ON
+\end_layout
+
+\begin_layout Itemize
+Magnetos ON
+\end_layout
+
+\begin_layout Itemize
+Cowl flaps SET
+\end_layout
+
+\begin_layout Itemize
+Throttle FULL OPEN
+\end_layout
+
+\begin_layout Itemize
+Pitch FULL FINE
+\end_layout
+
+\begin_layout Itemize
+Mixture FULL RICH
+\end_layout
+
+\begin_layout Itemize
+Fuel pump ON (until flow indication) 
+\end_layout
+
+\begin_layout Itemize
+Mixture IDLE CUT-OFF 
+\end_layout
+
+\begin_layout Itemize
+Fuel pump OFF
+\end_layout
+
+\begin_layout Itemize
+Throttle 1/4 OPEN
+\end_layout
+
+\begin_layout Itemize
+Propeller CLEAR
+\end_layout
+
+\begin_layout Itemize
+Starter ENGAGE
+\end_layout
+
+\begin_layout Itemize
+Mixture ADVANCE
+\end_layout
+
+\begin_layout Itemize
+Oil pressure CHECK
+\end_layout
+
+\begin_layout Subsection*
+HOT START
+\end_layout
+
+\begin_layout Itemize
+Master ON
+\end_layout
+
+\begin_layout Itemize
+Magnetos ON
+\end_layout
+
+\begin_layout Itemize
+Cowl flaps SET
+\end_layout
+
+\begin_layout Itemize
+Throttle 1/4 OPEN
+\end_layout
+
+\begin_layout Itemize
+Pitch FULL FINE
+\end_layout
+
+\begin_layout Itemize
+Mixture IDLE CUT-OFF
+\end_layout
+
+\begin_layout Itemize
+Propeller CLEAR
+\end_layout
+
+\begin_layout Itemize
+Starter ENGAGE
+\end_layout
+
+\begin_layout Itemize
+Mixture ADVANCE
+\end_layout
+
+\begin_layout Itemize
+Oil pressure CHECK
+\end_layout
+
+\begin_layout Subsection*
+FLOODED START
+\end_layout
+
+\begin_layout Itemize
+Master ON
+\end_layout
+
+\begin_layout Itemize
+Magnetos ON
+\end_layout
+
+\begin_layout Itemize
+Cowl flaps SET
+\end_layout
+
+\begin_layout Itemize
+Throttle FULL OPEN
+\end_layout
+
+\begin_layout Itemize
+Pitch FULL FINE
+\end_layout
+
+\begin_layout Itemize
+Mixture IDLE CUT-OFF
+\end_layout
+
+\begin_layout Itemize
+Fuel pump OFF
+\end_layout
+
+\begin_layout Itemize
+Propeller CLEAR
+\end_layout
+
+\begin_layout Itemize
+Starter ENGAGE
+\end_layout
+
+\begin_layout Itemize
+Throttle RETARD
+\end_layout
+
+\begin_layout Itemize
+Mixture ADVANCE
+\end_layout
+
+\begin_layout Itemize
+Oil pressure CHECK
+\end_layout
+
+\begin_layout Section*
+TAXI
+\end_layout
+
+\begin_layout Itemize
+Radio SET
+\end_layout
+
+\begin_layout Itemize
+Park brake OFF
+\end_layout
+
+\begin_layout Itemize
+Brakes TEST
+\end_layout
+
+\begin_layout Itemize
+Lights AS REQUIRED
+\end_layout
+
+\begin_layout Itemize
+Flight Instruments CHECK
+\end_layout
+
+\begin_layout Section*
+PRE-TAKEOFF
+\end_layout
+
+\begin_layout Itemize
+Park brake ON
+\end_layout
+
+\begin_layout Itemize
+Fuel CHECK
+\end_layout
+
+\begin_layout Itemize
+Hatches and Harnesses SECURE
+\end_layout
+
+\begin_layout Itemize
+Engine - RUN-UP
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Mixture RICHEN
+\end_layout
+
+\begin_layout Itemize
+Pitch FULL FINE
+\end_layout
+
+\begin_layout Itemize
+Throttle 6800 RPM
+\end_layout
+
+\begin_layout Itemize
+Magneto CHECK (drop 175 diff 50 RPM)
+\end_layout
+
+\begin_layout Itemize
+Pitch EXERCISE
+\end_layout
+
+\begin_layout Itemize
+Instruments GREEN
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Trim SET
+\end_layout
+
+\begin_layout Itemize
+Test Controls
+\end_layout
+
+\begin_layout Itemize
+Magnetos BOTH
+\end_layout
+
+\begin_layout Itemize
+Fuel pump ON
+\end_layout
+
+\begin_layout Itemize
+Flaps RETRACTED
+\end_layout
+
+\begin_layout Itemize
+Gear CHECK
+\end_layout
+
+\begin_layout Itemize
+Instruments CHECK
+\end_layout
+
+\begin_layout Itemize
+Attitude Indicator SET
+\end_layout
+
+\begin_layout Itemize
+Altimeter SET
+\end_layout
+
+\begin_layout Itemize
+Autopilot OFF
+\end_layout
+
+\begin_layout Verse
+Engine failure after takeoff briefing:
+\end_layout
+
+\begin_layout Verse
+Speed - 40 kts (35 kts for full flap)
+\end_layout
+
+\begin_layout Verse
+Field - 30 degree of nose
+\end_layout
+
+\begin_layout Verse
+Fault - Fuel-Air-Mags-Engine
+\end_layout
+
+\begin_layout Verse
+Flap - As required
+\end_layout
+
+\begin_layout Verse
+Final - Fuel off, Mayday call
+\end_layout
+
+\begin_layout Section*
+TAKEOFF
+\end_layout
+
+\begin_layout Itemize
+Transponder and Radar ON
+\end_layout
+
+\begin_layout Itemize
+Power FULL POWER
+\end_layout
+
+\begin_layout Itemize
+Rotate 30 kts (Vr)
+\end_layout
+
+\begin_layout Itemize
+Accelerate to 38 kts (Vx)
+\end_layout
+
+\begin_layout Itemize
+Positive ROC Toe brakes
+\end_layout
+
+\begin_layout Itemize
+Undercarriage RETRACT
+\end_layout
+
+\begin_layout Itemize
+Accelerate to 43 kts (Vy)
+\end_layout
+
+\begin_layout Itemize
+Power CLIMB POWER
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Throttle - 6800 RPM
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Fuel pump OFF
+\end_layout
+
+\begin_layout Section*
+AIRFIELD JOINING
+\end_layout
+
+\begin_layout Itemize
+Fuel SELECT
+\end_layout
+
+\begin_layout Itemize
+Radio's SET
+\end_layout
+
+\begin_layout Itemize
+Engine SET 
+\end_layout
+
+\begin_layout Itemize
+DI ALIGN
+\end_layout
+
+\begin_layout Itemize
+Altimeter SET
+\end_layout
+
+\begin_layout Itemize
+Approach REVIEW
+\end_layout
+
+\begin_layout Itemize
+Security Harnesses SECURE
+\end_layout
+
+\begin_layout Itemize
+Speeds REVIEW
+\end_layout
+
+\begin_layout Section*
+CIRCUIT
+\end_layout
+
+\begin_layout Itemize
+Brakes ON and OFF
+\end_layout
+
+\begin_layout Itemize
+Undercarriage DOWN and LOCKED
+\end_layout
+
+\begin_layout Itemize
+Mixture SET
+\end_layout
+
+\begin_layout Itemize
+Pitch SET
+\end_layout
+
+\begin_layout Itemize
+Throttle 6000 RPM ?
+\end_layout
+
+\begin_layout Itemize
+Fuel pumps ON
+\end_layout
+
+\begin_layout Itemize
+Flaps SET
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+1/4 Flap 52 kts
+\end_layout
+
+\begin_layout Itemize
+1/2 Flap 40 kts
+\end_layout
+
+\begin_layout Itemize
+Full Flap 35 kts
+\end_layout
+
+\end_deeper
+\begin_layout Section*
+FINAL APPROACH
+\end_layout
+
+\begin_layout Itemize
+Pitch FULL FINE
+\end_layout
+
+\begin_layout Itemize
+Undercarriage DOWN and WELDED
+\end_layout
+
+\begin_layout Itemize
+Flaps FULL
+\end_layout
+
+\begin_layout Section*
+POST LANDING
+\end_layout
+
+\begin_layout Itemize
+Flaps IDENTIFY LEVER and RETRACT
+\end_layout
+
+\begin_layout Itemize
+Fuel pump OFF
+\end_layout
+
+\begin_layout Section*
+PARKING
+\end_layout
+
+\begin_layout Itemize
+Electrics OFF
+\end_layout
+
+\begin_layout Itemize
+Magneto's CHECK DEAD CUT
+\end_layout
+
+\begin_layout Itemize
+Mixture IDLE CUTOFF
+\end_layout
+
+\begin_layout Itemize
+Magneto's OFF
+\end_layout
+
+\begin_layout Itemize
+Master OFF
+\end_layout
+
+\begin_layout Itemize
+Fuel OFF
+\end_layout
+
+\end_body
+\end_document
